@@ -34,6 +34,8 @@ $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a
 
 ### Dispersion Correction
 
+Dispersion correction parameters were fitted against the S22x5\cite{S22}, NCIBLIND10\cite{NCIBLIND10}, and S66x8\cite{S66_bench} (2022 revision by Martin \textit{et al.}\cite{s66x8_2022}) benchmark sets for non-covalent interaction energies by least-squares Levenberg-Marquardt minimization. All parameters were fitted close to the complete basis set limit using the large def2-QZVPP quadruple-$\zeta$ basis set.
+
 #### D4
 | Functional | $s_6$ | $s_8$ | $s_9$ | $a_1$ | $a_2$ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -46,7 +48,7 @@ $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a
 |$\omega$ Pr²SCAN50	|  |  |  |  |  |
 
 #### NL
-Non-local dispersion correction makes use of a scaling factor $NLScal$, that is given by $NLScal=1-$a_C$.
+Non-local dispersion correction makes use of a scaling factor $NLScal$, that is given by $NLScal=1-a_C$.
 
 | Method | $NLb$ | $NLScal$ |
 | :---: | :---: | :---: |
