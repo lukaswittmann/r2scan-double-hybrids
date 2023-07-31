@@ -2,16 +2,16 @@
 
 ## Functional Implementation
 
-- Pr²SCAN-D4 functionals can be build in Orca and Turbomole via the LibXC
+- Pr²SCAN functionals can be build in Orca and Turbomole via the LibXC
 - r²SCAN can be used with [libxc version 5.1.0](https://www.tddft.org/programs/libxc/changes/#510---2021-01-19) as `MGGA_X_R2SCAN` (id=497), `MGGA_C_R2SCAN` (id=498)
 - [XCFun 2.1.0](https://github.com/dftlibs/xcfun/releases/tag/v2.1.0) also implements support for the r²SCAN functional
-- routines for r²SCAN functional implementation can be found at https://gitlab.com/dhamil/r2scan-subroutines (Fortran), routines for Vasp are included
+- Routines for r²SCAN functional implementation can be found at https://gitlab.com/dhamil/r2scan-subroutines (Fortran), routines for Vasp are included
 
-- [kpr2scan...]
-- [wpr2scan...]
+- $\kappa$ Pr²SCAN functionals employ the regularized MP2 implemented in a development version of ORCA 5.0
+- $\omega$ Pr²SCAN functionals utilize the error function splitting of the two-electron operator implemented in a development version of ORCA 5.0
 
 - Libraries implementing DFT-D4 can be found at https://github.com/dftd4/dftd4 (Fortran) and https://github.com/dftd4/cpp-d4 (C++)
-- [NL] mit NLScal
+- NL dispersion correction DFT-NL (VV10, by Vydrov and Van Voorhis) can be used in Orca and Turbomole. For program-suits that do not support the usage of a scaling factor of the NL energy, one can scale the obtained NL energy by $NLScal$ manually.
 
 ## Functional Parameters
 
@@ -43,6 +43,8 @@ $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a
 |$\omega$ Pr²SCAN50	|  |  |  |  |  |
 
 #### NL
+Non-local dispersion correction makes use of a scaling factor $NLScal$, that is given by $NLScal=1-$a_C$.
+
 | Method | $NLb$ | $NLScal$ |
 | :---: | :---: | :---: |
 |r²SCAN0-DH	|  |	 |
