@@ -19,21 +19,40 @@
 
 $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a_{C}(a_{SS}E_{C}^{SS-MP2}+a_{OS}E_{C}^{OS-MP2})$
 
-| Method | a<sub>X</sub> | a<sub>C</sub> | a<sub>OS</sub> | a<sub>SS</sub> | 
-| --- | --- | --- | --- | --- |
-|r²SCAN0-DH	|	1/2	(0.50)	|	1/6	|	4/3	|	0	|
-|r²SCAN0-2	|	2<sup>-1/3</sup>	(0.79)	|	2/3	|	4/3	|	0	|
-|r²SCAN-CIDH	|	6<sup>-1/3</sup>	(0.55)	|	2/9	|	4/3	|	0	|
-|r²SCAN-QIDH	|	3<sup>-1/3</sup>	(0.69)	|	4/9	|	4/3	|	0	|
-|Pr²SCAN50	|	1/2	(0.50)	|	0.25	|	4/3	|	0	|
-|$\kappa$Pr²SCAN50	|	1/2	(0.50)	|	0.30	|	4/3	|	0	|
-|$\omega$Pr²SCAN50	|	1/2	(0.50)	|	0.35	|	4/3	|	0	|
+| Functional | $a_X$ | $a_C$ | $a_{OS}$ | $a_{SS}$ | $\kappa$ | $\omega$ | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|r²SCAN0-DH	|	1/2	<br>(0.5000)	|	1/6 <br>(0.1667) |	4/3	|	0	|  |  |
+|r²SCAN-CIDH	|	6<sup>-1/3</sup>	<br>(0.5500)	|	2/9 <br>(0.2223) |	4/3	|	0	|  |  |
+|r²SCAN-QIDH	|	3<sup>-1/3</sup>	<br>(0.6934)	|	4/9 <br>(0.445) |	4/3	|	0	|  |  |
+|r²SCAN0-2	|	2<sup>-1/3</sup>	<br>(0.7937)	|	2/3 <br>(0.6667) |	4/3	|	0	|  |  |
+|Pr²SCAN50	|	1/2	<br>(0.5000)	|	1/4 <br>(0.2500)	|	4/3	|	0	|  |  |
+|$\kappa$ Pr²SCAN50	|	1/2	<br>(0.5000)	|	3/10 <br>(0.3000)	|	4/3	|	0	| 2.750000 |  |
+|$\omega$ Pr²SCAN50	|	1/2	<br>(0.5000)	|	7/20 <br>(0.3500)	|	4/3	|	0	|  | 0.214013 |
 
 ### Dispersion Correction
 
 #### D4
+| Functional | $s_6$ | $s_8$ | $s_9$ | $a_1$ | $a_2$ |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|r²SCAN0-DH	|  |  |  |  |  |
+|r²SCAN-CIDH	|  |  |  |  |  |
+|r²SCAN-QIDH	|  |  |  |  |  |
+|r²SCAN0-2	|  |  |  |  |  | |
+|Pr²SCAN50	|  |  |  |  |  |
+|$\kappa$ Pr²SCAN50	|  |  |  |  |  |
+|$\omega$ Pr²SCAN50	|  |  |  |  |  |
 
 #### NL
+| Method | $NLb$ | $NLScal$ |
+| :---: | :---: | :---: |
+|r²SCAN0-DH	|  |	 |
+|r²SCAN-CIDH	|  |	 |
+|r²SCAN-QIDH	|  |	 |
+|r²SCAN0-2	|  |	 |
+|Pr²SCAN50	|  |	 |
+|$\kappa$ Pr²SCAN50	|  |	 |
+|$\omega$ Pr²SCAN50	|  |	 |
+
 
 ## Benchmark Results
 
