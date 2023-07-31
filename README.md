@@ -18,7 +18,9 @@
 ### Functional
 
 All functionals employ the following fundamental relation.
+
 $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a_{C}(a_{SS}E_{C}^{SS-MP2}+a_{OS}E_{C}^{OS-MP2})$
+
 
 | Functional | $a_X$ | $a_C$ | $a_{OS}$ | $a_{SS}$ | $\kappa$ | $\omega$ | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
