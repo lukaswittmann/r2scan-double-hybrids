@@ -49,9 +49,9 @@ $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a
 |r²SCAN0-2	|	2<sup>-1/3</sup>	<br>(0.7937)	|	2/3 <br>(0.6667) |	4/3 <br>(1.333)	|	0	|  |  |
 |Pr²SCAN50	|	1/2	<br>(0.5000)	|	1/4 <br>(0.2500)	|	4/3 <br>(1.333)	|	0	|  |  |
 |Pr²SCAN69	|	1/2	<br>(0.5000)	|	1/4 <br>(0.2500)	|	4/3 <br>(1.333)	|	0	|  |  |
-|$\kappa$Pr²SCAN50	|	1/2	<br>(0.5000)	|	3/10 <br>(0.3000)	|	4/3 <br>(1.333)	|	0	| 2.750000 |  |
-|$\omega$r²SCAN50	|	1/2	<br>(0.5000)	|	7/20 <br>(0.3500)	|	4/3 <br>(1.333)	|	0	|  | XXX |
-|$\omega$Pr²SCAN50	|	1/2	<br>(0.5000)	|	7/20 <br>(0.3500)	|	4/3 <br>(1.333)	|	0	|  | 0.214013 |
+|kPr²SCAN50	|	1/2	<br>(0.5000)	|	3/10 <br>(0.3000)	|	4/3 <br>(1.333)	|	0	| 2.750000 |  |
+|wr²SCAN50	|	1/2	<br>(0.5000)	|	7/20 <br>(0.3500)	|	4/3 <br>(1.333)	|	0	|  | XXX |
+|wPr²SCAN50	|	1/2	<br>(0.5000)	|	7/20 <br>(0.3500)	|	4/3 <br>(1.333)	|	0	|  | 0.214013 |
 
 ### Dispersion Correction
 
@@ -60,26 +60,14 @@ Dispersion correction parameters were fitted against the S22x5\cite{S22}, NCIBLI
 #### D4
 | Functional | $s_6$ | $s_8$ | $s_9$ | $a_1$ | $a_2$ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-|r²SCAN0-DH	|  |  |  |  |  |
-|r²SCAN-CIDH	|  |  |  |  |  |
-|r²SCAN-QIDH	|  |  |  |  |  |
-|r²SCAN0-2	|  |  |  |  |  | |
-|Pr²SCAN50	|  |  |  |  |  |
-|$\kappa$ Pr²SCAN50	|  |  |  |  |  |
-|$\omega$ Pr²SCAN50	|  |  |  |  |  |
+
 
 #### NL
 Non-local dispersion correction makes use of a scaling factor $NLScal$, that is given by $NLScal=1-a_C$.
 
 | Method | $NLb$ | $NLScal$ |
 | :---: | :---: | :---: |
-|r²SCAN0-DH	|  |	 |
-|r²SCAN-CIDH	|  |	 |
-|r²SCAN-QIDH	|  |	 |
-|r²SCAN0-2	|  |	 |
-|Pr²SCAN50	|  |	 |
-|$\kappa$ Pr²SCAN50	|  |	 |
-|$\omega$ Pr²SCAN50	|  |	 |
+
 
 
 ## Benchmark Results
