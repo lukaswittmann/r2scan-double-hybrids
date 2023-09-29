@@ -13,6 +13,22 @@
 - Libraries implementing DFT-D4 can be found at https://github.com/dftd4/dftd4 (Fortran) and https://github.com/dftd4/cpp-d4 (C++)
 - NL dispersion correction DFT-NL (VV10, by Vydrov and Van Voorhis) can be used in Orca and Turbomole. For program-suits that do not support the usage of a scaling factor of the NL energy, one can scale the obtained NL energy by $NLScal$ manually.
 
+## ORCA Input Files
+
+- r²SCAN0-DH-D4
+- r²SCAN-CIDH-D4
+- r²SCAN-QIDH-D4
+- r²SCAN0-2-D4
+- 
+- Pr²SCAN50-D4/NL
+- Pr²SCAN69-D4/NL
+
+- kPr²SCAN50-D4/NL
+
+- wr²SCAN50-D4/NL
+- wPr²SCAN50-D4/NL
+
+
 ## Functional Parameters
 
 ### Functional
