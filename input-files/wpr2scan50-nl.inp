@@ -1,0 +1,22 @@
+!WR2SCAN D4 DEFGRID3 def2/J RIJCOSX def2-QZVPP def2-QZVPP/C TightSCF
+
+%method
+  Exchange     X_WR2SCAN
+  Correlation  C_R2SCAN
+  DoMp2        true
+  RangeSepEXX  true
+  RangeSepMu   0.214013
+  RangeSepScal 0.5000
+  ACM          0.5000, 0.0000, 0.6500
+  ScalLDAC     0.65000
+  ScalMP2C     0.3500
+  NLb          9.4149
+  NLScal       0.6500
+end
+
+%mp2
+  DoSCS true
+  RI    true
+  PS    1.3333
+  PT    0.0000
+end
