@@ -1,0 +1,10 @@
+!WR2SCAN DEFGRID3 def2/J RIJCOSX def2-QZVPP def2-QZVPP/C TightSCF
+
+%method
+
+  D4S6 
+  D4S8 
+  D4S9 1.0000
+  D4A1 
+  D4A2 
+end
