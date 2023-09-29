@@ -3,11 +3,11 @@
 %method
   DoMP2 true
 
-  D4S6 
-  D4S8 
+  D4S6 0.7964
+  D4S8 0.3421
   D4S9 1.0000
-  D4A1 
-  D4A2 
+  D4A1 0.4663
+  D4A2 5.7916
 end
 
 %mp2
