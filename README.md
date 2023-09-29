@@ -15,13 +15,13 @@
 
 ## ORCA Input Files
 
-- r²SCAN0-DH-D4
+- [r²SCAN0-DH-D4](/input-files/r2scan0-dh-d4.inp)
 - r²SCAN-CIDH-D4
 - r²SCAN-QIDH-D4
 - r²SCAN0-2-D4
 
   
-- Pr²SCAN50-D4/NL
+- [Pr²SCAN50-D4](input-files/pr2scan50-d4.inp)/[NL](/input-files/pr2scan50-nl.inp)
 - Pr²SCAN69-D4/NL
 
 
