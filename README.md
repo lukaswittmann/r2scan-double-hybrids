@@ -1,5 +1,8 @@
 # r2SCAN Double-Hybrids
 
+[![DOI (Pre-print)](https://img.shields.io/badge/DOI-10.1002%2Fwcms.1493-blue)](https://chemrxiv.org/engage/chemrxiv/article-details/64f5c8883fdae147fa7a0600)
+
+
 ## Functional Implementation
 
 - Pr²SCAN functionals can be build in Orca and Turbomole via the LibXC
