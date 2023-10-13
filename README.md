@@ -28,7 +28,7 @@
 - [Pr²SCAN69-D4](input-files/pr2scan69-d4.inp) / [NL](/input-files/pr2scan69-nl.inp)
 
 
-- [kPr²SCAN50-D4](input-files/kpr2scan50-d4.inp) / [NL](/input-files/lpr2scan50-nl.inp)
+- [kPr²SCAN50-D4](input-files/kpr2scan50-d4.inp) / [NL](/input-files/kpr2scan50-nl.inp)
 
 
 - [wr²SCAN-D4](input-files/wr2scan-d4.inp) / [NL](/input-files/wr2scan-nl.inp)
