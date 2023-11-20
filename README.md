@@ -46,29 +46,49 @@ $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a
 
 | Functional | $a_X$ | $a_C$ | $a_{OS}$ | $a_{SS}$ | $\kappa$ | $\omega$ | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| r²SCAN0-DH     | $1/2$               (0.50)   | $1/8$               (0.13)   | $4/3$              | 0     |  |  |
+| r²SCAN-CIDH    | $6^{-1/3}$          (0.55)   | $1/6$               (0.17)   | $4/3$              | 0     |   |  |
+| r²SCAN-QIDH    | $3^{-1/3}$          (0.69)   | $1/3$               (0.33)   | $4/3$              | 0     |   |  |
+| r²SCAN0-2      | $2^{-1/3}$          (0.79)   | $1/2$               (0.50)   | $4/3$              | 0     |   |  |
+| Pr²SCAN50      | $1/2$               (0.50)   | $1/4$               (0.25)   | $4/3$              | 0     |   |  |
+| Pr²SCAN69      | $3^{-1/3}$          (0.69)   | $4/9$               (0.44)   | $4/3$              | 0     |   |  |
+| $\kappa$ Pr²SCAN50      | $1/2$               (0.50)   | $3/10$              (0.30)   | $4/3$              | 0     |  2.75 |  |
+| $\omega$ Pr²SCAN50      | $1/2$               (0.50)   | $7/20$              (0.35)   | $4/3$              | 0     |   | 0.2140 |
+
 
 
 ### Dispersion Correction
 
-Dispersion correction parameters were fitted against the S22x5\cite{S22}, NCIBLIND10\cite{NCIBLIND10}, and S66x8\cite{S66_bench} (2022 revision by Martin \textit{et al.}\cite{s66x8_2022}) benchmark sets for non-covalent interaction energies by least-squares Levenberg-Marquardt minimization. All parameters were fitted close to the complete basis set limit using the large def2-QZVPP quadruple-$\zeta$ basis set.
+Dispersion correction parameters were fitted against the S22x5, NCIBLIND10, and S66x8 (2022 revision by Martin et al.) benchmark sets for non-covalent interaction energies by least-squares Levenberg-Marquardt minimization. All parameters were fitted close to the complete basis set limit using the large def2-QZVPP quadruple-zeta basis set.
 
 #### D4
 | Functional | $s_6$ | $s_8$ | $s_9$ | $a_1$ | $a_2$ |
 | :---: | :---: | :---: | :---: | :---: | :---: |
+| r²SCAN0-DH       | 0.9424  | 0.3856             | 1.0000       | 0.4271       | 5.8565       |
+| r²SCAN-CIDH      | 0.8666  | 0.5336             | 1.0000       | 0.4171       | 5.9125       |
+| r²SCAN-QIDH      | 0.7867  | 0.2955             | 1.0000       | 0.4001       | 5.8300       |
+| r²SCAN0-2        | 0.7386  | 0.0000 | 1.0000       | 0.4030       | 5.5142       |
+| Pr²SCAN50        | 0.7964  | 0.3421             | 1.0000       | 0.4663       | 5.7916       |
+| Pr²SCAN69        | 0.7167  | 0.0000 | 1.0000       | 0.4644       | 5.2563       |
+| $\kappa$ Pr²SCAN50 | 0.8402 | 0.1212             | 1.0000       | 0.4382       | 5.8232       |
+| $\omega$ Pr²SCAN50 | 0.8143 | 0.3842             | 1.0000       | 0.4135       | 5.8773       |
 
+This Markdown table includes the provided data with appropriate formatting for GitHub. Adjustments 
 
+ 
 #### NL
-Non-local dispersion correction makes use of a scaling factor $NLScal$, that is given by $NLScal=1-a_C$.
+Non-local dispersion correction makes use of a scaling factor $a_{NL}$, that is given by $a_{NL}=1-a_C$.
 
-| Method | $NLb$ | $NLScal$ |
+| Method | $a_{NL}$ | $NL_{b}$ |
 | :---: | :---: | :---: |
+| r²SCAN0-DH       | --          | --           |
+| r²SCAN-CIDH      | --          | --           |
+| r²SCAN-QIDH      | --          | --           |
+| r²SCAN0-2        | --          | --           |
+| Pr²SCAN50        | 0.7500      | 10.9207      |
+| Pr²SCAN69        | 0.5556      | 9.0691       |
+| $\kappa$ Pr²SCAN50 | 0.7000     | 10.6723      |
+| $\omega$ Pr²SCAN50 | 0.6500     | 9.4149       |
 
-
-
-## Benchmark Results
-
-### Overview
-
-### Individual Benchmark Sets
 
 
