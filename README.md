@@ -1,7 +1,6 @@
 # r²SCAN-Based Double-Hybrids
 
-[![DOI](https://img.shields.io/badge/DOI-10.1002%2Fwcms.1493-blue)]([https://doi.org/10.1063/5.0174988](https://doi.org/10.1063/5.0174988)
-
+[![DOI](https://flat.badgen.net/badge/DOI/10.1063%205.0174988)](https://doi.org/10.1063/5.0174988)
 
 ## Functional Implementation
 
