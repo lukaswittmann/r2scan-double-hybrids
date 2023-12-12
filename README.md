@@ -1,6 +1,6 @@
 # r²SCAN-Based Double-Hybrids
 
-[![DOI (Pre-print)](https://img.shields.io/badge/DOI-10.1002%2Fwcms.1493-blue)](https://chemrxiv.org/engage/chemrxiv/article-details/64f5c8883fdae147fa7a0600)
+[![DOI](https://img.shields.io/badge/DOI-10.1002%2Fwcms.1493-blue)]([https://chemrxiv.org/engage/chemrxiv/article-details/64f5c8883fdae147fa7a0600](https://doi.org/10.1063/5.0174988))
 
 
 ## Functional Implementation
