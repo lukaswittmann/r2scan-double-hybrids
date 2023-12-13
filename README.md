@@ -17,21 +17,21 @@
 
 ## ORCA Input Files
 
+Double-hybrids:
 - [r²SCAN0-DH-D4](/input-files/r2scan0-dh-d4.inp)
 - [r²SCAN-CIDH-D4](/input-files/r2scan-cidh-d4.inp)
 - [r²SCAN-QIDH-D4](/input-files/r2scan-qidh-d4.inp)
 - [r²SCAN0-2-D4](/input-files/r2scan0-2-d4.inp)
-
   
 - [Pr²SCAN50-D4](input-files/pr2scan50-d4.inp)  / [NL](/input-files/pr2scan50-nl.inp)
 - [Pr²SCAN69-D4](input-files/pr2scan69-d4.inp) / [NL](/input-files/pr2scan69-nl.inp)
 
-
 - [kPr²SCAN50-D4](input-files/kpr2scan50-d4.inp) / [NL](/input-files/kpr2scan50-nl.inp)
 
-
-- [wr²SCAN-D4](input-files/wr2scan-d4.inp) / [NL](/input-files/wr2scan-nl.inp)
 - [wPr²SCAN50-D4](input-files/wpr2scan50-d4.inp) / [NL](/input-files/wpr2scan50-nl.inp)
+
+Range-separated hybrid:
+- [wr²SCAN-D4](input-files/wr2scan-d4.inp) / [NL](/input-files/wr2scan-nl.inp)
 
 
 ## Functional Parameters
