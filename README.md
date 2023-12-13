@@ -80,10 +80,6 @@ Non-local dispersion correction makes use of a scaling factor $a_{NL}$, that is 
 
 | Method | $a_{NL}$ | $NL_{b}$ |
 | :---: | :---: | :---: |
-| r²SCAN0-DH       | --          | --           |
-| r²SCAN-CIDH      | --          | --           |
-| r²SCAN-QIDH      | --          | --           |
-| r²SCAN0-2        | --          | --           |
 | Pr²SCAN50        | 0.7500      | 10.9207      |
 | Pr²SCAN69        | 0.5556      | 9.0691       |
 | $\kappa$ Pr²SCAN50 | 0.7000     | 10.6723      |
