@@ -1,12 +1,20 @@
-@article{Wittmann_Neugebauer_Grimme_Bursch_2023,
-  title={Dispersion-corrected r2SCAN based double-hybrid functionals},
-  volume={159},
-  rights={All rights reserved},
-  ISSN={0021-9606},
-  DOI={10.1063/5.0174988},
-  number={22}, journal={The Journal of Chemical Physics},
-  author={Wittmann, Lukas and Neugebauer, Hagen and Grimme, Stefan and Bursch, Markus},
-  year={2023},
-  month=dec,
-  pages={224103}
-}
+cff-version: 1.2.0
+message: "If you use any of out work, please cite it as below."
+authors:
+- family-names: "Wittmann"
+  given-names: "Lukas"
+  orcid: ""
+- family-names: "Neugebauer"
+  given-names: "Hagen"
+  orcid: ""
+- family-names: "Grimme"
+  given-names: "Stefan"
+  orcid: ""
+- family-names: "Bursch"
+  given-names: "Markus"
+  orcid: ""
+title: "Dispersion-corrected r2SCAN based double-hybrid functionals"
+journal: The Journal of Chemical Physics
+doi: 10.1063/5.0174988
+date-released: 2023-12-08
+url: "https://doi.org/10.1063/5.0174988"
