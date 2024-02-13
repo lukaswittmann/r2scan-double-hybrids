@@ -3,18 +3,24 @@ message: "If you use any of out work, please cite it as below."
 authors:
 - family-names: "Wittmann"
   given-names: "Lukas"
-  orcid: ""
+  orcid: "https://orcid.org/0009-0008-9915-083X"
 - family-names: "Neugebauer"
   given-names: "Hagen"
-  orcid: ""
+  orcid: "https://orcid.org/0000-0003-1309-0503"
 - family-names: "Grimme"
   given-names: "Stefan"
-  orcid: ""
+  orcid: "https://orcid.org/0000-0002-5844-4371"
 - family-names: "Bursch"
   given-names: "Markus"
-  orcid: ""
+  orcid: "https://orcid.org/0000-0001-6711-5804"
 title: "Dispersion-corrected r2SCAN based double-hybrid functionals"
 journal: The Journal of Chemical Physics
 doi: 10.1063/5.0174988
 date-released: 2023-12-08
+issue: 22
+volume: 159
+year: 2023
+month: dec
+start: 224103
+end: 224103-15
 url: "https://doi.org/10.1063/5.0174988"
