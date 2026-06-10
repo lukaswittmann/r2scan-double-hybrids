@@ -55,7 +55,6 @@ $E_{XC}^{DH} = (1-a_{X})E_{X}^{DFT} + a_{X}E_{X}^{HF} + (1-a_{C})E_{C}^{DFT} + a
 | $\omega$ Pr²SCAN50      | $1/2$               (0.50)   | $7/20$              (0.35)   | $4/3$              | 0     |   | 0.2140 |
 
 
-
 ### Dispersion Correction
 
 Dispersion correction parameters were fitted against the S22x5, NCIBLIND10, and S66x8 (2022 revision by Martin et al.) benchmark sets for non-covalent interaction energies by least-squares Levenberg-Marquardt minimization. All parameters were fitted close to the complete basis set limit using the large def2-QZVPP quadruple-zeta basis set.
@@ -71,8 +70,6 @@ Dispersion correction parameters were fitted against the S22x5, NCIBLIND10, and 
 | Pr²SCAN69        | 0.7167  | 0.0000 | 1.0000       | 0.4644       | 5.2563       |
 | $\kappa$ Pr²SCAN50 | 0.8402 | 0.1212             | 1.0000       | 0.4382       | 5.8232       |
 | $\omega$ Pr²SCAN50 | 0.8143 | 0.3842             | 1.0000       | 0.4135       | 5.8773       |
-
-This Markdown table includes the provided data with appropriate formatting for GitHub. Adjustments 
 
  
 #### NL
